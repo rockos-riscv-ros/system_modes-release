@@ -1,0 +1,13 @@
+Source: ros-jazzy-test-launch-system-modes
+Section: misc
+Priority: optional
+Maintainer: Arne Nordmann <arne.nordmann@bosch.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-flake8 <!nocheck>, ros-jazzy-ament-cmake-pep257 <!nocheck>, ros-jazzy-ament-index-python <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-builtin-interfaces, ros-jazzy-launch-system-modes, ros-jazzy-launch-testing-ament-cmake <!nocheck>, ros-jazzy-launch-testing-ros <!nocheck>, ros-jazzy-lifecycle-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-system-modes, ros-jazzy-system-modes-examples, ros-jazzy-system-modes-msgs, ros-jazzy-ros-workspace
+Homepage: https://micro.ros.org/docs/concepts/client_library/lifecycle_and_system_modes/
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-test-launch-system-modes
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-builtin-interfaces, ros-jazzy-launch-system-modes, ros-jazzy-lifecycle-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-system-modes, ros-jazzy-system-modes-examples, ros-jazzy-system-modes-msgs, ros-jazzy-ros-workspace
+Description: Launch tests for the launch_system_modes package, i.e.
+ launch actions, events, and event handlers for system modes.
